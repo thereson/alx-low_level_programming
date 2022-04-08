@@ -5,7 +5,6 @@
 /**
  * main - entry point for code 
  * rand() -generate random number
- * time.h - seed for random number every secomd
  * Return: always 0 (success)
  */
 int main(void)
