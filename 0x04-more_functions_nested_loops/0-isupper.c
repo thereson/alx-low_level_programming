@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <main.h>
 
-int int _isupper(int c)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
