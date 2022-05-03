@@ -1,12 +1,14 @@
 #include "main.h"
 
 /**
- * _strspn - idk how to explain this one
- * @s: string to check
- * @accept: accept value?
- * Return: number of bytes in initial segment of s
- */
+*_strspn - This is for getting the length of a prefix substring
+*@s: this is destination pointer
+*@accept: the is the source character
+*Return: this resturns to the destination pointer
+*/
 unsigned int _strspn(char *s, char *accept)
 {
-	return (strspn(s, accept));
+	char len = strspn(s, accept);
+
+	return (len);
 }
