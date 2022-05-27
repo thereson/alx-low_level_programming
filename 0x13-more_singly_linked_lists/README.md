@@ -1,1 +1,1 @@
-lnked lists
+linked lists
